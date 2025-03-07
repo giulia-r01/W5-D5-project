@@ -163,6 +163,7 @@ span #position {
   font-size: 1em;
   color: #817a7a;
   padding-bottom: 0.8em;
+  height: 100px;
 }
 
 .col2 {
@@ -172,7 +173,7 @@ span #position {
 }
 
 #container2 .img {
-  width: 250px;
+  width: 320px;
 }
 
 .icon {
@@ -205,5 +206,18 @@ span #position {
 
 .star {
   position: absolute;
-  bottom: 2px;
+  bottom: -2px;
+}
+
+.try {
+  font-size: 1em;
+  color: #817a7a;
+  padding-bottom: 0.8em;
+  height: 76px;
+}
+
+.try2 {
+  font-size: 1em;
+  color: #817a7a;
+  padding-bottom: 0.8em;
 }
