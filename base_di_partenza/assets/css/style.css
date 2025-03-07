@@ -84,10 +84,6 @@ h1 {
 
 /*main */
 
-main {
-  margin: 0 50px;
-}
-
 /*section1 */
 #container1 {
   border-bottom: 2px #a4a2a2 solid;
@@ -96,11 +92,16 @@ main {
   display: flex;
   align-items: center;
   padding: 1.2em 0;
+  margin-left: 50px;
 }
 
 .row1 {
   display: flex;
   justify-content: space-between;
+}
+
+.mar {
+  margin-left: 50px;
 }
 
 .col1 {
@@ -129,6 +130,8 @@ main {
   font-size: 0.95em;
   font-size: 0.75em;
   font-weight: bold;
+  position: absolute;
+  top: 13px;
 }
 
 h4 {
@@ -156,7 +159,9 @@ span #position {
 /*section2 */
 
 #container2 {
-  margin-top: 4em;
+  margin: 4em 1em;
+  display: flex;
+  justify-content: space-between;
 }
 
 #container2 .other {
@@ -220,4 +225,46 @@ span #position {
   font-size: 1em;
   color: #817a7a;
   padding-bottom: 0.8em;
+}
+
+/*fine seconda section*/
+
+/*inizio aside*/
+
+#last-col {
+  width: 550px;
+  padding: 0 30px;
+}
+
+#last-col button {
+  background-color: #fff;
+  color: #a4a2a2;
+  border: 1px #d6d6d6 solid;
+  margin: 0.5em 0.5em 0 0;
+  border-radius: 0.15em;
+  padding: 1em;
+  font-size: 0.9em;
+}
+
+h5 {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  font-weight: 500;
+}
+
+.border {
+  border-bottom: 1px #d6d6d6 solid;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+#container2 ul li {
+  color: #a4a2a2;
+  margin: 0.5em 1em 0 0;
+}
+
+.border2 {
+  padding-bottom: 50px;
+  flex-wrap: wrap;
 }
